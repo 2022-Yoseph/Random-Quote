@@ -1,0 +1,56 @@
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#quote-box {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px 40px;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #333;
+}
+
+#text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+#author {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+#new-quote {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 15px;
+  transition: background-color 0.3s ease;
+}
+
+#new-quote:hover {
+  background-color: #0056b3;
+}
+
+#tweet-quote {
+  font-size: 1rem;
+  color: #1da1f2;
+  text-decoration: none;
+  font-weight: 600;
+  vertical-align: middle;
+}
